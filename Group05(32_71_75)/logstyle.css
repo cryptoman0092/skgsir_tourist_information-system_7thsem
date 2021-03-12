@@ -1,0 +1,170 @@
+ 
+ *{
+     padding:0;
+     margin:0;
+    background-size:cover;
+     font-family: 'Cinzel', serif;
+ }
+ .bgimg{
+     width:100%;
+     height:100vh;
+     background-image:linear-gradient(27deg, #004E95 50%,#013A60 50%);
+ }
+ .centerdiv{
+
+    width:350px;
+    height:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:red;
+    transform:translate(-50%,-50%);
+    background-image:linear-gradient(27deg,#013A60 50%, #004E95 50%);
+    box-shadow:0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+ }
+ #profilepic{
+     width:120px;
+     height:120px;
+     border-radius:50%;
+     position:relative;
+     top:-60px;
+     left:calc( (350px - 120px) /2 );
+ }
+ 
+ .user{
+     text-align:center;
+     color:white;
+     text-transform:uppercase;
+     font-size:2em;
+     word-spacing:10px;
+     margin-top: -50px;
+     margin-bottom:50px;
+     text-shadow:-2px  2px 1px #0a45c6;
+ }
+ 
+ .inputbox{
+     width:calc(100% - 40px);
+     height:30px;
+     display:block;
+     margin:auto;
+     padding: 0 10px;
+     box-sizing:border-box;
+ }
+
+ ::placeholder{
+letter-spacing:2px;
+color:black;
+}
+.buttonsbt{
+    width:calc(100% - 40px);
+    height:30px;
+    display:block;
+    margin:auto;
+    padding: 0 10px;
+    color:white;
+    background-color:#0a84c6;
+    border:none;
+} 
+ .forget{
+    width:calc(100% - 40px);
+    line-height:30px;
+    display:block;
+    margin:auto;
+    color:white;
+    background-color:dodglerblue;
+    text-transform:uppercase;
+    font-size: 0.4em;
+    text-align:right;
+    padding-right:20px;
+    box-sizing:border-box;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* *{
+    margin:0;
+    padding:0;
+    font-size:16px;
+    color:#777;
+    font-family:sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/cs7.jpg);
+    background-position:center;
+    background-size:cover;
+   font-weight:300;
+
+}
+.login-box{
+    position:relative;
+    margin:10% auto;
+    height:400px;
+    width:600px;
+    background:rgba(0,0,0,0.4);
+    box-shadow: 0,2px,4px,rgba(0,0,0,0.8);
+}
+.left-box{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:300px;
+    height:400px;
+
+}
+h1{
+    margin-bottom:20px;
+    font-size:28px;
+    color:#fff;
+
+}
+.input-box{
+    display:block;
+    box-sizing:border-box;
+    margin-bottom:20px;
+    padding:4px;
+    width:220px;
+    border:1px solid #fff;
+    outline:none;
+    font-size:15px;
+    transition:0.2s;
+    color:#fff;
+    background:transparent;  
+
+}
+.submit-btn{
+    margin-bottom:28px;
+    width:120px;
+     height:32px;
+     background:#f44336;
+     border:none;
+     border-radius:2px;
+     color:#fff;
+     text-transform:uppercase;
+     cursor:pointer;
+     transition:0.2s;
+}
+.submit-btn:hover,
+.submit-btn:focus{
+    background:#ff5722;
+     transition:0.2s;
+}
+.right-box{
+    position:absolute;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:300px;
+    height:400px;
+    background-image:linear-gradient(rgba(0,0, 0, 0.6),rgba(0,0,0,0.6)),url(images/cs8.jpg);
+    background-position:center;
+    background-size:cover;
+}  */

@@ -1,0 +1,88 @@
+ 
+ *{
+    padding:0;
+    margin:0;
+   background-size:cover;
+    font-family: 'Cinzel', serif;
+}
+.bgimg{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(27deg, #004E95 50%,#013A60 50%);
+}
+.centerdiv{
+
+   width:450px;
+   height:500px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   background-color:red;
+   transform:translate(-50%,-50%);
+   background-image:linear-gradient(27deg,#013A60 50%, #004E95 50%);
+   box-shadow:0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+#profilepic{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    position:relative;
+    top:-60px;
+    left:calc( (350px - 120px) /2 );
+}
+
+.user{
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-size:1em;
+    word-spacing:10px;
+    margin-top: -50px;
+    margin-bottom:20px;
+    text-shadow:-2px  2px 1px #0a45c6;
+}
+
+.inputbox{
+    width:calc(100% - 40px);
+    height:20px;
+    display:block;
+    margin:auto;
+    padding: 0 10px;
+    box-sizing:border-box;
+}
+
+::placeholder{
+letter-spacing:2px;
+color:black;
+}
+.buttonsbt{
+   width:calc(100% - 40px);
+   height:30px;
+   display:block;
+   margin:auto;
+   padding: 0 10px;
+   color:white;
+   background-color:#0a84c6;
+   border:none;
+} 
+.forget{
+   width:calc(100% - 40px);
+   line-height:30px;
+   display:block;
+   margin:auto;
+   color:white;
+   background-color:dodglerblue;
+   text-transform:uppercase;
+   font-size: 0.4em;
+   text-align:right;
+   padding-right:20px;
+   box-sizing:border-box;
+}
+
+
+
+
+
+
+
+

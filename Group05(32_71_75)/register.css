@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+/* background-image: url("images/cs6.jpeg"); */
+background-attachment: fixed;
+background-size: cover;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-size:40px;
+    color:gray;
+    margin-top:20px;
+    margin-bottom:30px;
+}
